@@ -7,6 +7,6 @@ pool:
 stages:
 - stage: Clone Repo
   jobs:
-  - job: 'Clone of Repo GitHub'
+  - job: Clone
     steps:
     - script: git clone https://github.com/giovana-git/azure-devops-study/tree/main/app
